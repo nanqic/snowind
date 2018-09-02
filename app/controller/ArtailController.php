@@ -48,7 +48,7 @@ class ArtailController extends Controller
 			$this->assign('commuser',$commuser);
 			$this->assign('commtime',$commtime);
 			$this->assign('commnum',$commnum);
-			$this->display('Artail.html');
+			$this->display('artail.html');
 		}
 	}
 
