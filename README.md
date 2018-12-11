@@ -1,2 +1,3 @@
-# sw
-sw_blog_v0.2
+# snow wind blog
+# author by nanqic
+# abandon...
