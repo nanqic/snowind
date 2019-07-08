@@ -1,8 +1,8 @@
-this is a php blog
-env: 
-  php 7.2
-  mysql 5.7
-  apache 2.4
-# snow wind blog
-# author by nanqic
-# abandon...
+# this is a php blog
+## env: 
+- php 7.2
+-mysql 5.7
+-apache 2.4
+@snow wind blog
+@author by nanqic
+
