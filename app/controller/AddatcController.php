@@ -45,8 +45,8 @@ class AddatcController extends Controller
 			$data = ['title' => $title, 'overview' => $text, 'textpath' => $textpath,'uid' => $uid];
 			$insertId = $m->table('article')->insert($data);
 			if ($insertId) {
-				echo "操作成功!";
 				header('Refresh:2;url=index.php');
+				echo "操作成功!";
 			} else {
 				echo "操作失败";
 				unlink($textpath);

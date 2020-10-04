@@ -1,9 +1,9 @@
 <?php
 
 return [
-	'DB_HOST' => 'localhost',
+	'DB_HOST' => '127.0.0.1',
 	'DB_USER' =>'root',
-	'DB_PWD' => 'xn1989',
+	'DB_PWD' => '123456',
 	'DB_NAME' => 'sw_blog',
 	'DB_CHARSET' => 'utf8',
 	'DB_PREFIX' => '',

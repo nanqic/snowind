@@ -27,10 +27,10 @@ class AddphotoController extends Controller
 		$insertId = $m->table('gallery')->insert($data);
 		// 判断图片是否上传成功
 		if ($insertId) {
+			header('Refresh:2;url=index.php?m=gallery');
 			echo '上传成功!';
-			// header('Refresh:2;url=index.php?m=gallery');
 		} else {
-			// header('Refresh:2;url=index.php?m=gallery');
+			header('Refresh:2;url=index.php?m=gallery');
 			exit('上传失败');
 		}
 		$image = new Image();

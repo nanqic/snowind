@@ -69,7 +69,7 @@ class Model
 		// 连接数据库
 		$link = mysqli_connect($this->host,$this->user,$this->pwd);
 		if(!$link){
-			die('数据库连接失败');
+			die('数据库连接失败! '.mysqli_connect_error());
 		}
 		// 选择数据库
 		mysqli_select_db($link, $this->dbname);
